@@ -9,7 +9,10 @@
 #import "ViewController.h"
 #include <CoreData/CoreData.h>
 #include <dlfcn.h>
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *statuis;
